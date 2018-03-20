@@ -61,8 +61,8 @@ int inserirfinal(lista *li){
 	printf("Numero de Matricula: ");
 	scanf ("%d",&li->dados[li->qtd].matricula);
 	li->dados[li->qtd].n1= 0;
-	li->dados[li->qtd].n1= 0;
-	li->dados[li->qtd].n1= 0;
+	li->dados[li->qtd].n2= 0;
+	li->dados[li->qtd].n3= 0;
 	li->qtd++;
 	printf("\nAluno cadastrado com sucesso.");
 	return 1;
